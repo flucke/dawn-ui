@@ -114,6 +114,11 @@
             name="Lorentzian">
       </function>
       <function
+            class="uk.ac.diamond.scisoft.analysis.fitting.functions.LorentzianSqr"
+            id="uk.ac.diamond.scisoft.analysis.lorentziansqr"
+            name="LorentzianSqr">
+      </function>
+      <function
             class="uk.ac.diamond.scisoft.analysis.fitting.functions.PearsonVII"
             id="uk.ac.diamond.scisoft.analysis.pearsonvii"
             name="PearsonVII">

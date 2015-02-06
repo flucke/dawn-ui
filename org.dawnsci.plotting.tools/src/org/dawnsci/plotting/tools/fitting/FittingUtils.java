@@ -49,6 +49,7 @@ import uk.ac.diamond.scisoft.analysis.fitting.functions.Gaussian;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.IPeak;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.IdentifiedPeak;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.Lorentzian;
+import uk.ac.diamond.scisoft.analysis.fitting.functions.LorentzianSqr;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.Offset;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.PearsonVII;
 import uk.ac.diamond.scisoft.analysis.fitting.functions.Polynomial;
@@ -341,6 +342,7 @@ public class FittingUtils {
 		final Map<String, Class <? extends APeak>> opts = new LinkedHashMap<String, Class <? extends APeak>>(4);
 		opts.put(Gaussian.class.getName(),    Gaussian.class);
 		opts.put(Lorentzian.class.getName(),  Lorentzian.class);
+		opts.put(LorentzianSqr.class.getName(),  LorentzianSqr.class);
 		opts.put(PearsonVII.class.getName(),  PearsonVII.class);
 		opts.put(PseudoVoigt.class.getName(), PseudoVoigt.class);
 		return opts;
